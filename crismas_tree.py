@@ -1,13 +1,14 @@
 i=1
-while i<=7:
-    print(" "(7-i),end="")
+while i<=8:
+    print(" "*(8-i),end="")
     j=1
     while j<=i:
-        print(" "*j,end="")
-        print(" "*i,end="")
-        print()
-        i=5
-        while i>=1:
-            print(" "(5-i),end="")
-            print("*")
-            i=i-1
+        print("* ",end="")
+        j=j+1
+    print()
+    i=i+1
+i=6
+while i>=1:
+        print(""*(6-i),end="   ")
+        print("   *")
+        i=i-1
