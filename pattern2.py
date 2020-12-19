@@ -1,7 +1,10 @@
 i=1
-while i<=100:
-    if i%2==0:
-        print(-i)
-    else:
-        print(i)
-    i=i+1        
+k=1
+while i<5:
+    j=0
+    while j<i:
+        print(k,end="")
+        j=j+1
+        k=k+1
+    print()
+    i=i+1
